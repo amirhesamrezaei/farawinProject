@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFF9DE;
+}
+.hrder{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.pedar{
+
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #A6D0DD;
+    width: 35%;
+    border-radius: 30px;
+}
+.pedar:hover{
+    height: 55%;
+    background-color: black;
+    color: aliceblue;
+    transition: 2s;
+    width: 30%;
+    padding: 20px;
+}
+form{
+    padding: 10px;
+
+}
+form p{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+.dokme{
+    width: 100px;
+    height: 20px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: rgb(16, 115, 10);
+    font-weight: bold;
+    margin: 12px;
+}
+input{
+    border-radius: 10px;
+    height: 30px;
+}
+a:hover{
+    color: rgb(241, 227, 227);
+}

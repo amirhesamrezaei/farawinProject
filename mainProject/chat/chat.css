@@ -1,0 +1,66 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(195, 152, 238);
+
+}
+input{
+    height: 50px;
+}
+.textInput{
+    width: 95%;
+}
+.chat{
+    flex-direction: column;
+    justify-content: end;
+    display: flex;
+    
+    
+}
+
+.wrapper{
+    background-color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow-y: auto;
+    height: 75%;
+    max-height: 75%;
+}
+
+.addContact{
+    background-color: #513252;
+    position: absolute;
+    top: 170px;
+    right: 100px;
+}
+.editContact{
+    background-color: #513252;
+    position: absolute;
+    top: 170px;
+    right: 450px;
+    z-index: +1;
+}
+.contact{
+    height: 90%;
+}
+.emoji{
+    width: 300px;
+    background-color: #513252;
+
+    /* background-color: rgb(195, 152, 238); */
+    position: absolute;
+    bottom: 180px;
+    left: 130px;
+}
+
+.cursor {
+    cursor: pointer;
+}

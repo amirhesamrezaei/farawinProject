@@ -1,0 +1,99 @@
+@font-face {
+    font-family:ttr ;
+    src: url(./iransans.ttf.ttf);
+}
+.container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: ttr;
+    
+}
+.d1{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.kh{
+    background-color: rgb(208, 234, 235);
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 0 10px black;
+    border: 2px solid black;
+
+}
+.kh input{
+    border-radius: 10px;
+    height: 30px;
+
+}
+.kh select{
+    border-radius: 30px;
+    height: 30px;
+}
+button{
+    font-weight: bold;
+    background-color: rgb(116, 206, 26);
+    margin: 15px;
+    border-radius: 30px;
+    height: 30px; 
+    width: 30%;
+}
+.kh label{
+    font-weight: bolder;
+    margin: 20px;
+}
+.tosh{
+    margin-right: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tosh input{
+    margin: 10px;
+
+}
+.d2,.d3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+}
+.d4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+}
+.tabl{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+
+}
+table{
+    font-weight: bolder;
+    padding: 10px;
+    color: rgb(47, 8, 83);
+    width: 50%;
+    text-align: center;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    /* background-color: rgb(212, 245, 245); */
+    background-color: rgb(225, 206, 221);
+
+
+}
+table th{
+    padding: 20px;
+}
+table tr{
+    padding: 20px;
+}
+table td{
+    padding: 20px;
+}

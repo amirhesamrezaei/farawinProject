@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.con{
+    background-color: black;
+    width: 50%;
+    height: 200px;
+    border-radius: 30px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+li{
+    margin: 10px auto;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(218, 22, 65);
+    border-radius: 30px;
+    overflow: hidden;
+
+}
+li:hover a{
+    background-color: aqua;
+}
+a[href$=".org"]:hover
+{
+    background-color: #fff !important;
+}

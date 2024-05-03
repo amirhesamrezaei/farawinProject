@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(163, 238, 238);
+}
+.heder{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 15px;
+    position: relative;
+}
+.path
+{
+    position: absolute;
+    clip-path: inset(5% 2% 34% 0);
+    background-color: rgb(80, 112, 102);
+    height: 250px;
+    width: 300px;
+    opacity: 30%;
+    border-radius: 80%;
+    transform: rotate( +180deg );
+    top: -100px;
+    right: +170px;
+    z-index: -1;
+
+}
+
+.right{
+    width:30%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding-left: 15px;
+}
+button{
+
+    margin: 10px;
+    height: 30px;
+    width: 25%;
+    border: none;
+    border-radius: 30px;
+    height: 35px;
+    border: 2px solid black;
+}
+.r1{
+    background-color: rgb(62, 121, 216);
+}
+.r1 a{
+    color: white;
+}
+button a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.left{
+    width: 70%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+
+}
+.left ul{
+    margin-top: 5px;
+    margin-left: 80px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 15px 20px;
+}
+li a {
+    margin: 25px;
+    text-decoration: none;
+    color: black;
+    font-size:17px;
+    font-weight: bolder;
+
+}
+.left ul img{
+    margin-top: -10px;
+    margin-right: 35px;
+    width: 5%;
+    height: 45px;
+    border-radius: 50%;
+}
+ul a:hover{
+    transition: 0.25s;
+    color: rgb(241, 144, 18);
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: black;
+}
+button a:hover{
+    color: rgb(14, 229, 21);
+
+}
+.r1 a:hover{
+    color: rgb(5, 23, 6);
+
+}
+.vasat{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vl{
+    margin-left: 100px;
+    width: 50%;
+    text-align: center;
+}
+.vr{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.vr img{
+
+    width: 70%;
+}
+.vr img:hover{
+    transition: 1s ;
+    width: 90%;
+}
+.vl:hover{
+    width: 60%;
+    transition: 1s ;
+
+}
+.vl p{
+
+    margin-top: 40px;
+    font-size: 20px;
+}
+.vl button{
+    padding: 10px;
+    margin-top: 70px;
+    background-color: rgb(62, 121, 216);
+}
+.vl a {
+    color: white;
+}
+.vl a:hover{
+    color: black;
+}
+.payin{
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.p1,.p2,.p3
+{
+    padding: 15px;
+    text-align: center;
+    margin: 45px;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid black;
+
+}
+.p1:hover{
+    transition: 1s;
+    font-size: 20px;
+    color: rgb(22, 28, 150);
+}
+.p2:hover{
+    transition: 1s;
+    font-size: 20px;
+    color: rgb(22, 28, 150);
+}
+.p3:hover{
+    transition: 1s;
+    font-size: 20px;
+    color: rgb(22, 28, 150);
+}
+.sadeh{
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sadeh p{
+    margin-top: 10px;
+}
+.tah{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.tahl{
+    margin-top: 20px;
+    width: 50%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    margin-right: 80px;
+    font-weight: bold;
+
+}
+.tahlb , .tahlp
+{
+    display: flex;
+    flex-direction: row;
+
+}
+.tahlbp , .tahlpp{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    justify-content: center;
+
+
+}
+.tahlb img{
+    width: 80px;
+}
+.tahlp img{
+    width: 80px;
+
+}
+.tahlb div{
+    margin: 20px;
+}
+.tahlp div{
+    margin: 20px;
+}
+
+.tahr{
+    margin-top: 20px;
+    width: 50%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    font-weight: bold;
+}
+.tahrb , .tahrp
+{
+    display: flex;
+    flex-direction: row;
+}
+.tahrbp , .tahrpp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.tahrb img{
+    width: 80px;
+}
+.tahrp img{
+    width: 80px;
+
+}
+.tahrb div{
+    margin: 20px;
+}
+.tahrp div{
+    margin: 20px;
+}
+
+
+

@@ -1,0 +1,22 @@
+.tabl{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+
+}
+table{
+    font-weight: bolder;
+    padding: 10px;
+    color: rgb(47, 8, 83);
+    width: 50%;
+    text-align: center;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    /* background-color: rgb(212, 245, 245); */
+    background-color: rgb(225, 206, 221);
+
+
+}

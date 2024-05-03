@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+.lalezar{
+    font-family: 'lalezar';
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    background-color: rgb(163, 90, 231);
+    height: 700px;
+    border: 3px solid rgb(163, 90, 231);
+    border-radius: 15px;
+}
+.left{
+    flex-direction: column;
+    background-color: rgb(195, 152, 238);
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.secondInformation{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+.thirdInformation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lastInformation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    height: 50px;
+    width: 75%;
+    border-radius: 10px;
+}
+textarea{
+    height: 150px;
+    border-radius: 10px;
+}
+select{
+    border-radius: 10px;
+}
+
